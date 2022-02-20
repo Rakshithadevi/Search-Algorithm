@@ -18,7 +18,7 @@ To write a program to perform linear search and binary search using python progr
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
 i)	#Use a linear search method to match the item in a list.
-
+```
 def linearSearch(array,n,k):
     for i in range(0,n):
         if array[i]==k:
@@ -37,10 +37,10 @@ else:
     print(array)
     print("Element not found")
 
-
+```
 
 ii)	# Find the element in a list using Binary Search(Iterative Method).
-
+```
 def BinarySearch(arr, k, low, high):
     if high>=low:
         mid=low+(high-low)//2
@@ -66,13 +66,14 @@ if result>=0:
     print("Element found at index: ",result)
 else:
     print("Element not found")
+```
 
 
 
 
 
 iii)	# Find the element in a list using Binary Search (recursive Method).
-
+```
 def linearSearch(array,n,k):
     for i in range(0,n):
         if array[i]==k:
@@ -91,11 +92,11 @@ else:
     print(array)
     print("Element not found")
 
+```
 
 
 
-
-## Sample Input and Output
+## Output
 ![image](https://user-images.githubusercontent.com/94165326/152291126-684c595a-fc8d-4afa-9222-e829de526227.png)
 ![image](https://user-images.githubusercontent.com/94165326/152291274-5523bc3f-32d3-489c-9f63-4f7b00a71f03.png)
 ![image](https://user-images.githubusercontent.com/94165326/152291409-cc141233-a2aa-4e2e-ae66-dca146b31e92.png)
